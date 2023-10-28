@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #8E7C93;
+}
+
+button {
+  border-radius: 70px;
+  background: #D5CECE;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #7c6a6aFF;
+  font-weight: bold;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 60px;
+}
+
+a {
+  color: #3a87fe;
+  font-weight: 500;
+}
+a:link {
+  color: #3a87fe;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #6e69b5;
+  font-weight: bold;
+}
+
+a:active {
+  color: #3a87fe;
+  font-weight: 500;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+  color: black;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar{
+  background-color: #425a70;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #3a87fe;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  color: #6e69b5;
+  font-weight: bold;
+}
+
+.header-container{
+  display: flex;
+  background-color: #D0A5C0;
+  color: #FFFFFF;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  margin: 15px
+}
+.header-item:nth-of-type(1) {
+  background-color: #425a70;
+  border-radius: 10px;
+  padding: 1px;
+  margin: 5px;
+  text-align: center;
+}
+
+.header-item:nth-of-type(3) {
+  background-color: #D0A5C0;
+  border-radius: 10px;
+  padding: 1px;
+  margin: 5px;
+}
+
+.footer {
+  background-color: #425a70;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resourceBlock{
+  color: #FFFFFF;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+.petition{
+  background-color: #425a70;
+  border-radius: 10px;
+   color: #FFFFFF;
+  margin: 15px;
+  text-align: center;
+}
+
+.petition-container{
+  display: flex;
+  background-color: #D0A5C0;
+  padding: 5px;
+}
+
+#aboutBlock {
+  color: #FFFFFF;
+  background-color: #D0A5C0;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px;
+  margin: 15px
+}
+
+#mainImage{
+  height:30%;
+  width:60%;
+  border-radius: 30%;
+}
+
+#theme-button{
+  text-decoration: underline;
+}
+#resourceTitle {
+  background-color: #425a70;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  padding: 1px;
+
+}
+#resourceList{
+  background-color: #D0A5C0;
+  border-radius: 0 0 10px 10px;
+  padding: 20px
+}
+
+#sign-petition{
+  padding: 5px;
+}
+
+#sign-now-button{
+  margin-bottom: 5px;
+}
+#city-input{
+  border-radius: 5px;
+  padding-left: 5px;
+}
+#name-input{
+  border-radius: 5px;
+  padding-left: 5px;
+}
+#suggestButtons{
+  position: relative;
+  padding: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3a87fe;
+}
